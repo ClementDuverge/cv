@@ -1,43 +1,51 @@
 # Clément Duvergé
 
-**Développeur Full Stack Senior** • 10+ ans d'expérience
+**Software Engineer Senior** • 10+ ans d'expérience
 
-Spécialisé dans la scalabilité et la performance des applications web à fort trafic. Expert Symfony et architecture moderne, je recherche un produit à impact où je pourrai contribuer à la fois sur les aspects techniques (architecture, performance) et méthodologiques (TDD, best practices).
+Développeur senior avec 10+ ans d'expérience sur des produits à fort trafic et à forte contrainte métier. Habitué à reprendre des bases existantes pour les structurer, les fiabiliser et les faire évoluer. Aussi à l'aise sur l'architecture technique que sur l'accompagnement des équipes.
 
 📍 3 chemin de la Digue, 31290 Vallègue  
 📞 06 70 02 68 13  
 ✉️ duverge.clement@gmail.com  
-💼 [LinkedIn](#) • [GitHub](#)
+💼 [LinkedIn](https://www.linkedin.com/in/clementduverge/) • [GitHub](https://github.com/ClementDuverge)
 
 ---
 
 ## Expériences
 
-### **Développeur Sénior** • Webedia - Toulouse
-*Avril 2020 - Aujourd'hui*
+### **Software Engineer Senior** • Finvens - Toulouse
+*Avril 2025 - Aujourd'hui*
 
-#### Overblog (Avril 2020 - Aujourd'hui)
-Plateforme de blogging gérant plusieurs millions de sites web dont certains à très fort trafic.
+ERP maison spécialisé en gestion de crédit.
 
-- Migration complète de la plateforme en marque blanche avec intégration de Canalblog et Eklablog tout en conservant l'identité de chaque marque
-- Modernisation technique : migration de 10+ microservices vers PHP 7.4 et Symfony 5.4
-- Maintien de la disponibilité 99.9% pendant les phases de migration
+- Automatisation de l'extraction des données clients via OCR et IA multimodale, éliminant la saisie manuelle : **gain de 30 à 40% du temps analyste** et amélioration significative de la qualité des données
+- Structuration de l'application en bounded contexts (DDD/CQRS), permettant à 3 projets de coexister sans régression ni conflits entre développeurs
+- Mise en place d'une architecture IA agnostique (Gemini, OpenAI, Claude) avec système de skills et contextes partagés par bounded context
 
-#### 750g (Janvier 2024 - Aujourd'hui)
+### **Software Engineer Senior** • Webedia - Toulouse
+*Avril 2020 - Mars 2025*
+
+#### 750g (Janvier 2024 - Mars 2025)
 Plateforme hébergeant deux sites de cuisine à très fort trafic (750g et Tudogostoso).
 
-- Upgrade majeur vers Symfony 6.4 sur une application critique gérant des millions de requêtes/jour
-- Intégration complète des outils de reporting GCP pour optimiser le monitoring
+- Élaboration de la roadmap de sortie du legacy : planification de la migration vers les outils groupe (SEO, CMS, templates publicitaires) sur une base tentaculaire
 - Refonte de la stratégie de cache (Redis + Varnish) : **amélioration des temps de réponse de 40%**
+- Mise en place de l'observabilité post-migration on-premise vers GCP (monitoring, alerting)
+
+#### Overblog (Avril 2020 - Décembre 2023)
+Plateforme de blogging gérant plusieurs millions de sites web dont certains à très fort trafic.
+
+- Intégration de Canalblog (500 000 sites, 50 000 utilisateurs actifs) et Eklablog sur la plateforme Overblog (1 million de sites) en marque blanche, sans interruption de service
+- Déploiement d'un antispam IA sur l'ensemble de la plateforme : **réduction de 150 à 50 millions de pages indexées**, assainissant massivement le parc de contenus
+- Garantie de la disponibilité 99.9% sur une architecture de 20+ microservices durant l'ensemble des migrations
 
 ### **Lead Développeur** • Calmedia - Paris
 *Janvier 2017 - Décembre 2017 (alternance) puis Janvier 2019 - Avril 2020*
 
 Plateforme de suivi post-opératoire par intelligence artificielle.
 
-- Migration complète vers Symfony 4.4 et refactorisation de l'application legacy
-- Mise en place d'une architecture testable : **inversion de la pyramide de tests** (augmentation de la couverture de 30% à 85%)
-- Accompagnement de l'équipe sur les bonnes pratiques de développement
+- Reprise d'une application legacy PHP natif (sans framework ni ORM) et mise en place d'une architecture testable : **couverture de 30% à 85%**
+- Management d'une équipe de 8 personnes (3 CDI, 3 alternants, 2 stagiaires) : montée en compétence et mise en place des pratiques de développement
 
 ### **Développeur Full Stack** • Yoopies - Paris
 *Janvier 2018 - Décembre 2018*
@@ -45,48 +53,37 @@ Plateforme de suivi post-opératoire par intelligence artificielle.
 Plateforme de mise en relation entre parents et professionnels de l'enfance.
 
 - Refonte complète du parcours d'inscription des professionnels : **réduction du taux d'abandon de 35%**
-- Développement du système de déclaration automatique des demandes d'aides fiscales
-- Collaboration avec l'équipe produit sur l'amélioration de l'UX
+- Automatisation des déclarations fiscales (CESU, Pajemploi) via API, éliminant la saisie manuelle par le service client
 
 ---
 
 ## Compétences techniques
 
 **Backend**  
-PHP, Symfony (4.4 → 6.4), Architecture microservices, API REST
-
-**Frontend**  
-JavaScript (Node.js, Vue.js, Vanilla), HTML5, CSS3
+PHP, Symfony, API REST, GraphQL
 
 **Bases de données**  
-PostgreSQL, MariaDB, ElasticSearch, Solr
+MySQL, PostgreSQL
 
 **Infrastructure & DevOps**  
-Docker, GCP, Linux, Varnish, Redis, RabbitMQ, ActiveMQ
+Docker, GCP, Linux, Varnish, Redis, AMQP
+
+**IA**  
+Intégration LLM (OpenAI, Claude, Gemini), pipelines de traitement, outillage et skills pour agents de code
 
 **Méthodologies**  
-Agile/Scrum, TDD, CQRS, Code review, Architecture hexagonale
-
----
-
-## Formation
-
-**Master Informatique** • [Nom de l'établissement]  
-*[Années]*
-
-**[Diplôme précédent]** • [Établissement]  
-*[Années]*
+TDD, DDD, CQRS, Architecture hexagonale
 
 ---
 
 ## Langues
 
 🇫🇷 **Français** - Natif  
-🇬🇧 **Anglais** - Technique (lecture de documentation, échanges avec équipes internationales)
+🇬🇧 **Anglais** - Technique (documentation, échanges internationaux)
 
 ---
 
 ## Centres d'intérêt
 
-📚 Lecteur assidu de fantasy (Brandon Sanderson, Robert Jordan)  
-🎮 Passionné de jeux stratégiques
+📚 Lecteur de fantasy (Brandon Sanderson, Robert Jordan)  
+🎮 Jeux vidéo (Path of Exile, TFT, The Binding of Isaac)
